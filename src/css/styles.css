@@ -50,12 +50,12 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  border: 1px solid rgb(180, 166, 166);
-  width: 100%;
+  /* border: 1px solid rgb(180, 166, 166); */
+  /* width: 100%; */
   margin: 5px;
   padding: 5px;
-  max-height: 650px;
-  background-color: white;
+  /* max-height: 650px; */
+  background-color: transparent;
   box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.42);
 }
 .info {
