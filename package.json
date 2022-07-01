@@ -6,7 +6,9 @@
   "homepage": "https://mitrofin.github.io/search-contry",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /search-contry/"
+    "build": "parcel build src/*.html --public-url /search-contry/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -20,12 +22,15 @@
   },
   "dependencies": {
     "@pnotify/confirm": "^5.2.0",
+    "@pnotify/core": "^5.2.0",
+    "gh-pages": "^4.0.0",
+    "handlebars": "^4.7.7",
+    "handlebars-loader": "^1.7.2",
     "lodash.debounce": "^4.0.8",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
-    "@pnotify/core": "^5.2.0",
     "parcel": "^2.6.0",
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
