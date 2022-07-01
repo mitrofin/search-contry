@@ -1,24 +1,23 @@
 {
-  "name": "search-contry",
+  "name": "search-country",
   "version": "2.0.0",
   "description": "",
-  "main": "index.js",
-  "homepage": "https://mitrofin.github.io/search-contry",
+  "homepage": "https://mitrofin.github.io/search-country",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /search-contry/",
+    "build": "parcel build src/*.html --public-url /search-country/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mitrofin/search-contry.git"
+    "url": "git+https://github.com/mitrofin/search-country.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mitrofin/search-contry/issues"
+    "url": "https://github.com/mitrofin/search-country/issues"
   },
   "dependencies": {
     "@pnotify/confirm": "^5.2.0",
